@@ -47,6 +47,8 @@ Flutter`
 
 ## Hình ảnh kết quả
 
+![Demo](./assets/demo.png)
+
 <div style="display: flex; justify-content: space-between;">
     <div>
         <h3>Android</h3>

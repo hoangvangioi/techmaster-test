@@ -25,6 +25,8 @@ Dự án này vẽ một bàn cờ vua có kích thước 8x8 ô, với một qu
 
 ## Hình ảnh kết quả
 
+![Demo](./assets/demo.png)
+
 <div style="display: flex; justify-content: space-between;">
     <div>
         <h3>Android</h3>
