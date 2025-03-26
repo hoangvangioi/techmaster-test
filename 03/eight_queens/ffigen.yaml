@@ -1,0 +1,19 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: EightQueensBindings
+description: |
+  Bindings for `src/eight_queens.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/eight_queens_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/eight_queens.h'
+  include-directives:
+    - 'src/eight_queens.h'
+preamble: |
+  // ignore_for_file: always_specify_types
+  // ignore_for_file: camel_case_types
+  // ignore_for_file: non_constant_identifier_names
+comments:
+  style: any
+  length: full
